@@ -49,5 +49,7 @@
 ## ⚡ Stats ⚡
 [![BhadraGitHub Streak](https://streak-stats.demolab.com?user=bhadraagada&theme=dark&hide_border=true)](https://git.io/streak-stats)
 
+<img src="https://github-readme-stats.vercel.app/api?username=bhadraagada&show_icons=true&theme=radical" width="400">
+
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
