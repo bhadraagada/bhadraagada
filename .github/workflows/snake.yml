@@ -8,15 +8,22 @@ jobs:
   snake-eater:
     runs-on: ubuntu-latest
     steps:
+      # Check out the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Install Pillow so we can generate a GIF
+      - name: Install Dependencies
+        run: pip3 install Pillow
+
+      # Run the simulation and generate output files
       - name: Simulate Snake Eating Commits
         run: |
           echo "Preparing the snake..."
           python3 - << 'EOF'
           import subprocess
           import time
+          from PIL import Image, ImageDraw
 
           # Fetch the last 10 commit messages (adjust the number as needed)
           commit_log = subprocess.getoutput('git log -n 10 --pretty=format:"%s"')
@@ -37,4 +44,55 @@ jobs:
               time.sleep(1)  # pause for dramatic effect
           
           print("\nAll commits have been devoured by the snake!")
+
+          # Generate an SVG file with a snake emoji
+          svg_content = (
+              '<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">'
+              '<text x="10" y="50" font-size="40">🐍</text>'
+              '</svg>'
+          )
+          with open("snake.svg", "w") as svg_file:
+              svg_file.write(svg_content)
+          print("Generated snake.svg")
+
+          # Generate a simple GIF using Pillow
+          frames = []
+          for i in range(5):
+              frame = Image.new('RGB', (200, 100), (255, 255, 255))
+              d = ImageDraw.Draw(frame)
+              d.text((10, 40), f"🐍 Frame {i+1}", fill=(0, 0, 0))
+              frames.append(frame)
+          frames[0].save('snake.gif', save_all=True, append_images=frames[1:], loop=0, duration=200)
+          print("Generated snake.gif")
           EOF
+
+      # Commit the generated files to an orphan branch named "output"
+      - name: Commit SVG and GIF to output branch
+        run: |
+          # Set up git configuration
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Delete existing 'output' branch if it exists
+          git branch -D output || true
+          
+          # Move generated files to a temporary folder
+          mkdir temp_output
+          mv snake.svg snake.gif temp_output/
+          
+          # Create a new orphan branch named "output"
+          git checkout --orphan output
+          git reset --hard
+          # Remove any pre-existing files (if any)
+          git rm -rf . || true
+          
+          # Copy the output files into the branch
+          cp -r temp_output/* .
+          rm -rf temp_output
+          
+          # Commit and push the changes to the output branch
+          git add .
+          git commit -m "Update snake output files"
+          git push origin output --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
