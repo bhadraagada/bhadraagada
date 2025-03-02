@@ -53,9 +53,11 @@
 ---
 
 ## ⚡ Stats ⚡
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=bhadraagada&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
 [![BhadraGitHub Streak](https://streak-stats.demolab.com?user=bhadraagada&theme=dark&hide_border=true)](https://git.io/streak-stats)
 
-<img src="https://github-readme-stats.vercel.app/api?username=bhadraagada&show_icons=true&theme=radical" width="400">
+![](https://github-readme-stats.vercel.app/api?username=bhadraagada&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
