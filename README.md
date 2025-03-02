@@ -12,6 +12,7 @@
 
 ---
 
+
 ## 🌐 Socials:
 
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/afufM2rp)
@@ -22,6 +23,11 @@
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/u/Previous_Comparsion6)
 [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Bhadra2069457)
 [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/Bhadra-design)
+
+---
+## Music🕺
+
+![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=31rbqtzz5p6ribtrr74cst4x6qau&width=1000)
 
 ---
 
