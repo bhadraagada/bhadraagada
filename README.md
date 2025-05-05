@@ -6,15 +6,15 @@
 
 # Hi, I'm Bhadra Gada, Web Developer/Coder 💻, Learner 👨‍💻 & gamer 🦸‍♂️ from India 🇮🇳.
 
-🎓 Currently a College student.  
-💻 I love to learn new technologies and frameworks.  
+🎓 Currently a College student.
+💻 I love to learn new technologies and frameworks.
 🧑‍💼 I’m currently a freelancer working as a Next.js developer.
 
 ---
 
 
 ## 🌐 Socials:
-
+x
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/afufM2rp)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/bhadraagada)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Bhadra-Gada)
@@ -41,7 +41,7 @@
 
 ### Deployment
 
-[![learning](https://skillicons.dev/icons?i=planetscale%2Cvercel%2Cnetlify)](https://skillicons.dev)  
+[![learning](https://skillicons.dev/icons?i=planetscale%2Cvercel%2Cnetlify)](https://skillicons.dev)
 [![learning](https://img.shields.io/badge/Log-Alert-ca3e54?labelColor=5512ca&style=for-the-badge)](https://www.logalert.app)
 
 ---
@@ -61,3 +61,6 @@
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+## Support me 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/bhadraagada)
