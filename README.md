@@ -55,7 +55,7 @@
 ## ⚡ Stats ⚡
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=bhadraagada&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-![GitHub Punch Card](https://punchcardwidget.vercel.app/api/punchcard?user=bhadraagada)
+![GitHub Punch Card](https://punchcardwidget.vercel.app/api/punchcard?user=bhadraagada&theme=dark)
 
 [![BhadraGitHub Streak](https://streak-stats.demolab.com?user=bhadraagada&theme=dark&hide_border=true)](https://git.io/streak-stats)
 
