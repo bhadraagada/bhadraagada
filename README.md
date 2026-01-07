@@ -24,11 +24,6 @@
 [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/Bhadra-design)
 
 ---
-## Music🕺
-
-![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=31rbqtzz5p6ribtrr74cst4x6qau&width=1000)
-
----
 
 ## 🔥 Languages-Frameworks-Tools 🔥
 
